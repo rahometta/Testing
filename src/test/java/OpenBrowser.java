@@ -13,11 +13,11 @@ public class OpenBrowser {
 
         driver.manage().window().fullscreen();
         driver.findElement(By.id("username")).sendKeys("tomsmith");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.findElement(By.className("radius")).click();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.close();
     }
 }
